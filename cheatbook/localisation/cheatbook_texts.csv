@@ -1,0 +1,5 @@
+cheatbook_pollinate_decision;* Pollinate;* Pollinate;;;* Pollinate;;;;;;;;;x
+cheatbook_pollinate_decision_desc;Pollinate [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;Pollinate [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;Pollinate [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;;;;;;;x
+cheatbook_strengthen_decision;* Strengthen;* Strengthen;;;* Strengthen;;;;;;;;;x
+cheatbook_strengthen_decision_desc;Strengthen [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;Strengthen [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;Strengthen [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;;;;;;;x
+

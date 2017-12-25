@@ -1,0 +1,48 @@
+targetted_decisions = {
+    cheatbook_pollinate_decision = {
+        ai_target_filter = all
+        filter = all
+        only_playable = yes
+        from_potential = {
+            ai = no
+        }
+        allow = {
+            age = 14
+            is_female = yes
+            NOT = { trait = pregnant }
+        }
+        effect = {
+            # ROOT is the target character
+            # FROM is the trigger character
+
+            spouse = {
+                impregnate = ROOT
+			}
+        }
+        revoke_allowed = {
+            always = no
+        }
+    }
+    cheatbook_strengthen_decision = {
+        ai_target_filter = all
+        filter = all
+        only_playable = yes
+        from_potential = {
+            ai = no
+        }
+        effect = {
+            remove_trait = depressed
+            remove_trait = flu
+            remove_trait = ill
+            remove_trait = sickly
+            remove_trait = stressed
+            remove_trait = weak
+
+            add_trait = strong
+        }
+        revoke_allowed = {
+            always = no
+        }
+    }
+}
+
