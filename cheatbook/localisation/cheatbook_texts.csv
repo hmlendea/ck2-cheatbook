@@ -1,5 +1,11 @@
+cheatbook_convert_culture_decision;* Convert Culture;* Convert Culture;* Convert Culture;;* Convert Culture;;;;;;;;;x
+cheatbook_convert_culture_decision_desc;Convert [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName] to your culture;;;;;;;;;;;;;x
+cheatbook_convert_religion_decision;* Convert Religion;* Convert Religion;* Convert Religion;;* Convert Religion;;;;;;;;;x
+cheatbook_convert_religion_decision_desc;Convert [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName] to your religion;;;;;;;;;;;;;x
+cheatbook_impregnate_decision_desc;Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
 cheatbook_impregnate_decision;* Impregnate;* Impregnate;;;* Impregnate;;;;;;;;;x
-cheatbook_impregnate_decision_desc;Impregnate [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;Impregnate [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;Impregnate [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;;;;;;;x
+cheatbook_imprison_decision_desc;* Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];* Emprisonner [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];* Einkerkern [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];;* Arrestar [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];;;;;;;;;x
+cheatbook_imprison_decision;* Imprison;* Emprisonner;* Einkerkern;;* Arrestar;;;;;;;;;x
+cheatbook_strengthen_decision_desc;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
 cheatbook_strengthen_decision;* Strengthen;* Strengthen;;;* Strengthen;;;;;;;;;x
-cheatbook_strengthen_decision_desc;Strengthen [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;Strengthen [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;Strengthen [Root.GetTitle] [Root.GetFirstName] [Root.GetOnlyDynastyName].;;;;;;;;;x
 
