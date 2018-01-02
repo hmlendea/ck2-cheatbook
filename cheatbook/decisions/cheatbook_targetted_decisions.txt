@@ -1,5 +1,5 @@
 targetted_decisions = {
-    cheatbook_pollinate_decision = {
+    cheatbook_impregnate_decision = {
         ai_target_filter = all
         filter = all
         only_playable = yes
