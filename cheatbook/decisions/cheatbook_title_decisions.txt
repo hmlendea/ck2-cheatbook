@@ -1,0 +1,53 @@
+title_decisions = {
+    cheatbook_convert_province_culture_decision = {
+        ai_target_filter = all
+        filter = all
+        only_playable = yes
+        from_potential = {
+            ai = no
+        }
+        potential = {
+            AND = {
+				tier = COUNT
+                NOT = { location = { culture = FROM } }
+            }
+        }
+        effect = {
+            # ROOT is the target character
+            # FROM is the trigger character
+
+            location = {
+                culture = FROM
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+    }
+    cheatbook_convert_province_religion_decision = {
+        ai_target_filter = all
+        filter = all
+        only_playable = yes
+        from_potential = {
+            ai = no
+        }
+        potential = {
+            AND = {
+				tier = COUNT
+                NOT = { location = { religion = FROM } }
+            }
+        }
+        effect = {
+            # ROOT is the target character
+            # FROM is the trigger character
+
+            location = {
+                religion = FROM
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+    }
+}
+
