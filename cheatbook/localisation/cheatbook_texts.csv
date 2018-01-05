@@ -1,8 +1,8 @@
 cheatbook_convert_culture_decision;* Convert Culture;* Convert Culture;* Convert Culture;;* Convert Culture;;;;;;;;;x
 cheatbook_convert_culture_decision_desc;Convert [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName] to your culture;;;;;;;;;;;;;x
-cheatbook_convert_province_culture_decision_decision;* Convert Culture;;;;;;;;;;;;;x
+cheatbook_convert_province_culture_decision;* Convert Culture;;;;;;;;;;;;;x
 cheatbook_convert_province_culture_decision_desc;Converts the local population to your culture;;;;;;;;;;;;;x
-cheatbook_convert_province_religion_decision_decision;* Convert Religion;;;;;;;;;;;;;x
+cheatbook_convert_province_religion_decision;* Convert Religion;;;;;;;;;;;;;x
 cheatbook_convert_province_religion_decision_desc;Converts the local population to your religion;;;;;;;;;;;;;x
 cheatbook_convert_religion_decision;* Convert Religion;* Convert Religion;* Convert Religion;;* Convert Religion;;;;;;;;;x
 cheatbook_convert_religion_decision_desc;Convert [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName] to your religion;;;;;;;;;;;;;x
