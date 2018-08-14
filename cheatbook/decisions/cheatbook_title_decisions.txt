@@ -3,9 +3,7 @@ title_decisions = {
         ai_target_filter = all
         filter = all
         only_playable = yes
-        from_potential = {
-            ai = no
-        }
+        from_potential = { ai = no }
         potential = {
             AND = {
 				tier = COUNT
@@ -20,17 +18,13 @@ title_decisions = {
                 culture = FROM
             }
         }
-        revoke_allowed = {
-            always = no
-        }
+        revoke_allowed = { always = no }
     }
     cheatbook_convert_province_religion_decision = {
         ai_target_filter = all
         filter = all
         only_playable = yes
-        from_potential = {
-            ai = no
-        }
+        from_potential = { ai = no }
         potential = {
             AND = {
 				tier = COUNT
@@ -45,9 +39,16 @@ title_decisions = {
                 religion = FROM
             }
         }
-        revoke_allowed = {
-            always = no
-        }
+        revoke_allowed = { always = no }
+    }
+    cheatbook_usurp_decision = {
+        ai_target_filter = all
+        filter = all
+        only_playable = yes
+        from_potential = { ai = no }
+        potential = { NOT = { holder = FROM } }
+        effect = { usurp_title = FROM }
+        revoke_allowed = { always = no }
     }
 }
 

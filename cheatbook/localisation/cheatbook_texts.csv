@@ -12,4 +12,7 @@ cheatbook_imprison_decision_desc;* Imprison [Root.GetTitle] [Root.GetOnlyDynasty
 cheatbook_imprison_decision;* Imprison;* Emprisonner;* Einkerkern;;* Arrestar;;;;;;;;;x
 cheatbook_strengthen_decision_desc;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
 cheatbook_strengthen_decision;* Strengthen;* Strengthen;;;* Strengthen;;;;;;;;;x
-
+cheatbook_vassalise_decision_desc;Vassalise [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Vassalise [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Vassalise [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
+cheatbook_vassalise_decision;* Vassalise;* Vassalise;;;* Vassalise;;;;;;;;;x
+cheatbook_usurp_decision;* Usurp;;;;;;;;;;;;;x
+cheatbook_usurp_decision_desc;Usurp the title;;;;;;;;;;;;;x

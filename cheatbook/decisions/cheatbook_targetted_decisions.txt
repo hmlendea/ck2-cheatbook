@@ -111,5 +111,35 @@ targetted_decisions = {
             always = no
         }
     }
+    cheatbook_vassalise_decision = {
+        ai_target_filter = all
+        filter = all
+        only_playable = yes
+        from_potential = {
+            ai = no
+        }
+        allow = {
+            NOT = { liege = { character = FROM } }
+        }
+        effect = {
+            if = {
+                limit = { ROOT = { is_ruler = yes} }
+
+                ROOT = {
+                    set_defacto_liege = FROM
+                }
+            }
+            if = {
+                limit = { ROOT = { is_ruler = no} }
+
+                ROOT = {
+                    move_character = FROM
+                }
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+    }
 }
 
