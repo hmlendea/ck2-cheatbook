@@ -1,18 +1,49 @@
-cheatbook_convert_culture_decision;* Convert Culture;* Convert Culture;* Convert Culture;;* Convert Culture;;;;;;;;;x
 cheatbook_convert_culture_decision_desc;Convert [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName] to your culture;;;;;;;;;;;;;x
-cheatbook_convert_province_culture_decision;* Convert Culture;;;;;;;;;;;;;x
+cheatbook_convert_culture_decision;* Convert Culture;* Convert Culture;* Convert Culture;;* Convert Culture;;;;;;;;;x
 cheatbook_convert_province_culture_decision_desc;Converts the local population to your culture;;;;;;;;;;;;;x
-cheatbook_convert_province_religion_decision;* Convert Religion;;;;;;;;;;;;;x
+cheatbook_convert_province_culture_decision;* Convert Culture;;;;;;;;;;;;;x
 cheatbook_convert_province_religion_decision_desc;Converts the local population to your religion;;;;;;;;;;;;;x
-cheatbook_convert_religion_decision;* Convert Religion;* Convert Religion;* Convert Religion;;* Convert Religion;;;;;;;;;x
+cheatbook_convert_province_religion_decision;* Convert Religion;;;;;;;;;;;;;x
 cheatbook_convert_religion_decision_desc;Convert [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName] to your religion;;;;;;;;;;;;;x
+cheatbook_convert_religion_decision;* Convert Religion;* Convert Religion;* Convert Religion;;* Convert Religion;;;;;;;;;x
 cheatbook_impregnate_decision_desc;Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Impregnate [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
 cheatbook_impregnate_decision;* Impregnate;* Impregnate;;;* Impregnate;;;;;;;;;x
 cheatbook_imprison_decision_desc;* Imprison [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];* Emprisonner [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];* Einkerkern [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];;* Arrestar [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName];;;;;;;;;x
 cheatbook_imprison_decision;* Imprison;* Emprisonner;* Einkerkern;;* Arrestar;;;;;;;;;x
 cheatbook_strengthen_decision_desc;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Strengthen [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
 cheatbook_strengthen_decision;* Strengthen;* Strengthen;;;* Strengthen;;;;;;;;;x
+cheatbook_tm_create_duchy_desc;Create a titular duchy from the [Root.GetFullBaseName].;;;;;;;;;;;;;x
+cheatbook_tm_create_duchy;* Create duchy;;;;;;;;;;;;;x
+cheatbook_tm_create_empire_desc;Create a titular empire from the [Root.GetFullBaseName].;;;;;;;;;;;;;x
+cheatbook_tm_create_empire;* Create empire;;;;;;;;;;;;;x
+cheatbook_tm_create_kingdom_desc;Create a titular kingdom from the [Root.GetFullBaseName].;;;;;;;;;;;;;x
+cheatbook_tm_create_kingdom;* Create kingdom;;;;;;;;;;;;;x
+cheatbook_tm_set_duchy_desc;Set the [Root.GetFullBaseName] as the receiver for any future de jure county transfers. Any previously set duchy will lose this designation.;;;;;;;;;;;;;x
+cheatbook_tm_set_duchy;* Set duchy;;;;;;;;;;;;;x
+cheatbook_tm_set_empire_desc;Set the [Root.GetFullBaseName] as the receiver for any future de jure kingdom transfers. Any previously set empire will lose this designation.;;;;;;;;;;;;;x
+cheatbook_tm_set_empire;* Set empire;;;;;;;;;;;;;x
+cheatbook_tm_set_kingdom_desc;Set the [Root.GetFullBaseName] as the receiver for any future de jure duchy transfers. Any previously set kingdom will lose this designation.;;;;;;;;;;;;;x
+cheatbook_tm_set_kingdom;* Set kingdom;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_any_duchy_is_set;There is one and only one active duchy in the realm\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_any_empire_is_set;There is one and only one active empire in the realm\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_any_kingdom_is_set;There is one and only one active kingdom in the realm\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_is_set_duchy;[Root.GetBaseName] is set as the receiving duchy\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_is_set_empire;[Root.GetBaseName] is set as the receiving empire\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_is_set_kingdom;[Root.GetBaseName] is set as the receiving kingdom\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_not_set_duchy;[Root.GetBaseName] is not already the set duchy\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_not_set_empire;[Root.GetBaseName] is not already the set empire\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_not_set_kingdom;[Root.GetBaseName] is not already the set kingdom\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_transfer;[This.GetFullBaseName] becomes the new de jure liege of [Root.GetFullBaseName]\n;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_two_set_duchy;There are at least two active duchies in the realm;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_two_set_empire;There are at least two active empires in the realm;;;;;;;;;;;;;x
+cheatbook_tm_tooltip_two_set_kingdom;There are at least two active kingdoms in the realm;;;;;;;;;;;;;x
+cheatbook_tm_transfer_county_to_duchy_desc;The [Root.GetFullBaseName] becomes a de jure part of the currently set duchy.;;;;;;;;;;;;;x
+cheatbook_tm_transfer_county_to_duchy;* Transfer county;;;;;;;;;;;;;x
+cheatbook_tm_transfer_duchy_to_kingdom_desc;The [Root.GetFullBaseName] becomes a de jure part of the currently set kingdom.;;;;;;;;;;;;;x
+cheatbook_tm_transfer_duchy_to_kingdom;* Transfer duchy;;;;;;;;;;;;;x
+cheatbook_tm_transfer_kingdom_to_empire_desc;The [Root.GetFullBaseName] becomes a de jure part of the currently set empire.;;;;;;;;;;;;;x
+cheatbook_tm_transfer_kingdom_to_empire;* Transfer kingdom;;;;;;;;;;;;;x
+cheatbook_usurp_decision_desc;Usurp the title;;;;;;;;;;;;;x
+cheatbook_usurp_decision;* Usurp;;;;;;;;;;;;;x
 cheatbook_vassalise_decision_desc;Vassalise [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;Vassalise [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;Vassalise [Root.GetTitle] [Root.GetOnlyDynastyName] [Root.GetFirstName].;;;;;;;;;x
 cheatbook_vassalise_decision;* Vassalise;* Vassalise;;;* Vassalise;;;;;;;;;x
-cheatbook_usurp_decision;* Usurp;;;;;;;;;;;;;x
-cheatbook_usurp_decision_desc;Usurp the title;;;;;;;;;;;;;x

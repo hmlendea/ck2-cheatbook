@@ -1,0 +1,382 @@
+title_decisions = {
+    cheatbook_tm_create_duchy = {
+        from_potential = {
+            ai = no
+        }
+
+        effect = {
+            create_title = {
+                tier = DUKE
+                landless = no
+                temporary = no
+                custom_created = yes
+                holder = FROM
+                base_title = ROOT
+                copy_title_laws = yes
+            }
+        }
+    }
+
+    cheatbook_tm_create_kingdom = {
+        from_potential = {
+            ai = no
+        }
+
+        effect = {
+            create_title = {
+                tier = KING
+                landless = no
+                temporary = no
+                custom_created = yes
+                holder = FROM
+                base_title = ROOT
+                copy_title_laws = yes
+            }
+        }
+    }
+
+    cheatbook_tm_create_empire = {
+        from_potential = {
+            ai = no
+        }
+
+        effect = {
+            create_title = {
+                tier = EMPEROR
+                landless = no
+                temporary = no
+                custom_created = yes
+                holder = FROM
+                base_title = ROOT
+                copy_title_laws = yes
+            }
+        }
+    }
+
+    cheatbook_tm_set_duchy = {
+        from_potential = {
+            ai = no
+        }
+
+        potential = {
+            real_tier = DUKE
+            holder_scope = {
+                same_realm = FROM
+            }
+        }
+
+        allow = {
+            OR = {
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_not_set_duchy
+                    hidden_tooltip = {
+                        NOT = {
+                            has_title_flag = cheatbook_tm_active_duchy
+                        }
+                    }
+                }
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_two_set_duchy
+                    FROM = {
+                        any_realm_title = {
+                            count = 2
+                            has_title_flag = cheatbook_tm_active_duchy
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            custom_tooltip = {
+                text = cheatbook_tm_tooltip_is_set_duchy
+                hidden_tooltip = {
+                    FROM = {
+                        any_title_under = {
+                            limit = {
+                                real_tier = DUKE
+                                has_title_flag = cheatbook_tm_active_duchy
+                            }
+                            clr_title_flag = cheatbook_tm_active_duchy
+                        }
+                    }
+                    ROOT = { set_title_flag = cheatbook_tm_active_duchy }
+                }
+            }
+        }
+        revoke_allowed = {
+            always = no
+        }
+    }
+
+    cheatbook_tm_set_kingdom = {
+        from_potential = {
+            ai = no
+        }
+
+        potential = {
+            real_tier = KING
+            holder_scope = {
+                same_realm = FROM
+            }
+        }
+
+        allow = {
+            OR = {
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_not_set_kingdom
+                    hidden_tooltip = {
+                        NOT = {
+                            has_title_flag = cheatbook_tm_active_kingdom
+                        }
+                    }
+                }
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_two_set_kingdom
+                    FROM = {
+                        any_realm_title = {
+                            count = 2
+                            has_title_flag = cheatbook_tm_active_kingdom
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            custom_tooltip = {
+                text = cheatbook_tm_tooltip_is_set_kingdom
+                hidden_tooltip = {
+                    FROM = {
+                        any_title_under = {
+                            limit = {
+                                real_tier = KING
+                                has_title_flag = cheatbook_tm_active_kingdom
+                            }
+                            clr_title_flag = cheatbook_tm_active_kingdom
+                        }
+                    }
+                    ROOT = { set_title_flag = cheatbook_tm_active_kingdom }
+                }
+
+            }
+        }
+
+        revoke_allowed = {
+            always = no
+        }
+    }
+
+    cheatbook_tm_set_empire = {
+        from_potential = {
+            ai = no
+        }
+
+        potential = {
+            real_tier = EMPEROR
+            holder_scope = {
+                same_realm = FROM
+            }
+        }
+
+        allow = {
+            OR = {
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_not_set_empire
+                    hidden_tooltip = {
+                        NOT = {
+                            has_title_flag = cheatbook_tm_active_empire
+                        }
+                    }
+                }
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_two_set_empire
+                    FROM = {
+                        any_realm_title = {
+                            count = 2
+                            has_title_flag = cheatbook_tm_active_empire
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            custom_tooltip = {
+                text = cheatbook_tm_tooltip_is_set_empire
+                hidden_tooltip = {
+                    FROM = {
+                        any_title_under = {
+                            limit = {
+                                real_tier = EMPEROR
+                                has_title_flag = cheatbook_tm_active_empire
+                            }
+                            clr_title_flag = cheatbook_tm_active_empire
+                        }
+                    }
+                    ROOT = { set_title_flag = cheatbook_tm_active_empire }
+                }
+            }
+        }
+
+        revoke_allowed = {
+            always = no
+        }
+    }
+
+    cheatbook_tm_transfer_county_to_duchy = {
+        from_potential = {
+            ai = no
+        }
+
+        potential = {
+            real_tier = COUNT
+        }
+
+        allow = {
+            FROM = {
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_any_duchy_is_set
+                    hidden_tooltip = {
+                        any_realm_title = {
+                            has_title_flag = cheatbook_tm_active_duchy
+                        }
+                    }
+                    NOT = {
+                        any_realm_title = {
+                            count = 2
+                            has_title_flag = cheatbook_tm_active_duchy
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            FROM = {
+                any_title_under = {
+                    limit = {
+                        real_tier = DUKE
+                        has_title_flag = cheatbook_tm_active_duchy
+                    }
+                    custom_tooltip = {
+                        text = cheatbook_tm_tooltip_transfer
+                        hidden_tooltip = {
+                            ROOT = {
+                                de_jure_liege = PREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        revoke_allowed = {
+            always = no
+        }
+    }
+
+    cheatbook_tm_transfer_duchy_to_kingdom = {
+        from_potential = {
+            ai = no
+        }
+
+        potential = {
+            real_tier = DUKE
+        }
+
+        allow = {
+            FROM = {
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_any_kingdom_is_set
+                    hidden_tooltip = {
+                        any_realm_title = {
+                            has_title_flag = cheatbook_tm_active_kingdom
+                        }
+                    }
+                    NOT = {
+                        any_realm_title = {
+                            count = 2
+                            has_title_flag = cheatbook_tm_active_kingdom
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            FROM = {
+                any_title_under = {
+                    limit = {
+                        real_tier = KING
+                        has_title_flag = cheatbook_tm_active_kingdom
+                    }
+                    custom_tooltip = {
+                        text = cheatbook_tm_tooltip_transfer
+                        hidden_tooltip = {
+                            ROOT = {
+                                de_jure_liege = PREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        revoke_allowed = {
+            always = no
+        }
+    }
+
+    cheatbook_tm_transfer_kingdom_to_empire = {
+        from_potential = {
+            ai = no
+        }
+
+        potential = {
+            real_tier = KING
+        }
+
+        allow = {
+            FROM = {
+                custom_tooltip = {
+                    text = cheatbook_tm_tooltip_any_empire_is_set
+                    hidden_tooltip = {
+                        any_realm_title = {
+                            has_title_flag = cheatbook_tm_active_empire
+                        }
+                    }
+                    NOT = {
+                        any_realm_title = {
+                            count = 2
+                            has_title_flag = cheatbook_tm_active_empire
+                        }
+                    }
+                }
+            }
+        }
+
+        effect = {
+            FROM = {
+                any_title_under = {
+                    limit = {
+                        real_tier = EMPEROR
+                        has_title_flag = cheatbook_tm_active_empire
+                    }
+                    custom_tooltip = {
+                        text = cheatbook_tm_tooltip_transfer
+                        hidden_tooltip = {
+                            ROOT = {
+                                de_jure_liege = PREV
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        revoke_allowed = {
+            always = no
+        }
+    }
+}
