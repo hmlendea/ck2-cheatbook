@@ -111,6 +111,7 @@ targetted_decisions = {
             remove_trait = stressed
             remove_trait = weak
             remove_trait = wounded
+            remove_trait = incapable
 
             add_trait = strong
         }
